@@ -11,18 +11,27 @@
 ####**My Reflection**
 I've always found it easiest to explain technical tasks to non-technical people by writing out instructions, step by step, as simply as possible. For these steps, I am going to assume that the person already has a GitHub account, and that Git has already been installed on their system. 
 
-Steps: 
+######Steps: 
+
 1) Log in to your GitHub account at www.github.com
+
 2) Click on the + at the top right of the screen and select "New repository"
+
 3) Give the Repository a name in the "Repository Name" field
 4) Keep "Public selected"
+
 5) Click the "Add a License" box and select "MIT License"
 6) Click "Create Repository"
+
 7) On the Repository page, look for the text "HTTPS Clone URL" on the right side of the screen
+
 8) Select the Text in the box below it, and then hit Command+C
 9) Open your Terminal by pressing Command+Space and typing Terminal; then hit Enter
+
 10) [Assuming they are using Documents as their Repository] Type *cd documents* and then hit enter
+
 11) Type *git clone CMD+V* and then hit enter
+
 12) When prompted, enter your user name and password
 
 Congratulations! You've now got a repository!
