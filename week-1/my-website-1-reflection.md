@@ -26,6 +26,7 @@ I've always found it easiest to explain technical tasks to non-technical people 
 7) On the Repository page, look for the text "HTTPS Clone URL" on the right side of the screen
 
 8) Select the Text in the box below it, and then hit Command+C
+
 9) Open your Terminal by pressing Command+Space and typing Terminal; then hit Enter
 
 10) [Assuming they are using Documents as their Repository] Type *cd documents* and then hit enter
