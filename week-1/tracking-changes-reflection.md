@@ -47,19 +47,28 @@ Once you type *git commit*, all of the changes marked as "Changes to be Comitted
 A pull request if a request for someone to review your code before it is merged. A pull is requested through GitHub by...
 
 1)  going to the Repository you're working in, and then selecting "Pull Requests" from the menu on the right. 
+
 2) Click the "New Pull Request" button
+
 3) Change the **Compare** dropdown to the Branch your changes are in, and the Branch you want to merge in to in the **Base* drop down. 
+
 4) Click "Create Pull Request"
+
 5) Fill out comments, if necessary, then click Create Pull Request
+
 
 At this point, someone else should be reviewing the code to confirm that it doesn't break anything. They would then hit Merge and Pull Request. At this point, the branch has been merged, and you can delete it. 
 
 Now, we need to get the updated Branch (Master) back on to your machine. Here's how:
 
 1) Open up your Terminal and navigate to the correct directory for the Repository
+
 2) Switch back to Master with *git checkout master*
+
 3) Type *git pull* - this will syn you up with the Master changes on GitHub
+
 4) Delete the old branch using *git branch -d OldBranch*
+
 
 You should now be fully synced up to Master, your code reviewed, and your repository clean of unneeded branches. 
 
