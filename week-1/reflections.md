@@ -38,11 +38,11 @@ Find and GREP are also extremely useful in conjunction. If you're looking for a 
 
 For example, if you were looking to see how many times the word "Banana" (case insensitive) was used in the file "Banana.txt", but could not remember where to find the TXT file itself, you would do something like this:
 
-find . -name "Banana.txt" -print
+`find . -name "Banana.txt" -print
 
-cd /banana/directory/here/
+`cd /banana/directory/here/
 
-grep -ic banana Banana.txt > BananaCount.txt
+`grep -ic banana Banana.txt > BananaCount.txt
 
 This would create a new file named BananaCount.txt that would store the number of times the word Banana appeared in Banana.txt. Useful!
 
@@ -77,7 +77,7 @@ help - type "man" before any function to bring up its manual
 
 Creating, Forking, and Cloning a repo are all surprisingly easy tasks. I figured this is where things would start to get difficult, but GitHub really does seem to be made so that anyone can use it - which is very helpful for me! 
 
-Creating a Repo:
+####**Creating a Repo:**
 
 You will want to Create a Repo for new projects that you are creating. This will create an empty repository for you to Upload your code to. If you want to play with code that already exists on Github, you would want to Fork a repository instead, which I'll explain in the next section. 
 
@@ -91,7 +91,7 @@ You will want to Create a Repo for new projects that you are creating. This will
 
 5) Click "Create Repository" - simple as that! The repository will now be available on Github.com, and you will be able to pull it down to your system. 
 
-Forking a Repro:
+####**Forking a Repro:**
 
 You will want to Fork a repo if you want to play with code that someone else has written. Forking the code essentially copies it to a Repository that you own. You can pull it down to your computer, make changes, and then commit them all without modifying the code in the original repository that you forked it from. This would allow for 2 separate programs to be branched from the same codebase. You would also be able to pull additional changes from the original repository if there were code changes you wanted in your Fork of the code. Setting up a Fork is incredibly simple. 
 
@@ -103,7 +103,7 @@ You will want to Fork a repo if you want to play with code that someone else has
 
 And done! That's all it takes. The code would then be forked on to your Github account. 
 
-Cloning a Repo:
+####**Cloning a Repo:**
 
 Using Git (not GitHub!) you can pull down all of the code in a particular GitHub repository. You do this by using Terminal/Command Line. Once you want to start working on editing code locally, all you have to do is: 
 
@@ -119,7 +119,7 @@ Assuming nothing went wrong, your terminal would then start to pull down all of 
 
 3) You are working from a machine that is not your normal development machine, and want to pull down the most recent version of your code.
 
-Commit and Submit:
+####**Commit and Submit:**
 
 Once you've finished working in your cloned repository, you need to Commit your changes and Push them up to Github. 
 
