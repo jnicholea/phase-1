@@ -38,7 +38,6 @@ Once you type *git commit*, all of the changes marked as "Changes to be Comitted
 
 *-git status* - Check the status of all files; do ths often!
 
-
 *-git add file* - Add the specified file to Changes to be Comitted
 
 *-git reset --soft HEAD^* - used to remove files from the Chages to be Comitted
