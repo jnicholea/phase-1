@@ -37,10 +37,16 @@ Once you type *git commit*, all of the changes marked as "Changes to be Comitted
 ####**Git Commit-Related Commands**
 
 *-git status* - Check the status of all files; do ths often!
+
+
 *-git add file* - Add the specified file to Changes to be Comitted
+
 *-git reset --soft HEAD^* - used to remove files from the Chages to be Comitted
+
 *-git checkout file* - Used to revert a modified file to its previous commit
+
 *-git commit -m "message"* - Command to Commit a change with a message explaining the change
+
 
 ####**Pull Requests**
 
