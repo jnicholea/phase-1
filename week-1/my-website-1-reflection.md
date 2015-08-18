@@ -18,9 +18,11 @@ I've always found it easiest to explain technical tasks to non-technical people 
 2) Click on the + at the top right of the screen and select "New repository"
 
 3) Give the Repository a name in the "Repository Name" field
+
 4) Keep "Public selected"
 
 5) Click the "Add a License" box and select "MIT License"
+
 6) Click "Create Repository"
 
 7) On the Repository page, look for the text "HTTPS Clone URL" on the right side of the screen
