@@ -38,17 +38,17 @@ Find and GREP are also extremely useful in conjunction. If you're looking for a 
 
 For example, if you were looking to see how many times the word "Banana" (case insensitive) was used in the file "Banana.txt", but could not remember where to find the TXT file itself, you would do something like this:
 
-`find . -name "Banana.txt" -print
+find . -name "Banana.txt" -print
 
-`cd /banana/directory/here/
+cd /banana/directory/here/
 
-`grep -ic banana Banana.txt > BananaCount.txt
+grep -ic banana Banana.txt > BananaCount.txt
 
 This would create a new file named BananaCount.txt that would store the number of times the word Banana appeared in Banana.txt. Useful!
 
  
 
-Bash Commands:
+####**Bash Commands:**
 
 PWD - prints the directory that you are currently in
 
